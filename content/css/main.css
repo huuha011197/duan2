@@ -1,0 +1,90 @@
+#grad1 {
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom right, #092c53  ,   #7b848e  ); /* Standard syntax (must be last) */
+}
+.navbar-inverse .navbar-nav > li > a{
+	color: white;
+}
+.navbar-inverse .navbar-nav > li > a:hover{color: red}
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand
+{
+	color: white;
+}
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand:hover{color: red}
+    .final-price {
+    font-size: 14px;
+    font-weight: 500;
+    color: #d42333;
+}
+.product-info {
+    padding: 0 10px 5px 10px;
+    margin-top: 5px;
+    position: relative;
+}
+.product-info a{
+    text-decoration: none;
+}
+.product-info a:hover{color: blue}
+.product-name {
+    margin: 8px 0 5px 0;
+    font-size: 13px;
+    color: #666;
+    height: 35px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;}
+    .grid-view-item {
+    margin: 15px 0;
+    cursor: pointer;
+    color: #333;}
+.mua{
+    display:none; 
+    position: absolute;
+    padding: 10px 10px 8px 10px;
+    border-radius: 3px;
+    top: 60%;
+    left: 31%;
+}
+.chitiet{
+    display:none; 
+    position: absolute;
+    padding: 10px 10px 8px 10px;
+    border-radius: 3px;
+    top: 60%;
+    left: 36%;
+}
+ .carousel-inner img{
+    margin: 0 auto;
+    height: 400px !important;
+}
+.v3-header-cart-count {
+    font-family: 'Roboto',sans-serif;
+    position: absolute;
+    right: -40px;
+    padding: 2px 5px;
+    top: -2px;
+    background: red;
+    z-index: 10;
+    font-weight: normal;
+    font-size: 11px;
+    margin: 5px 30px;}
+.a {
+    line-height: 1;
+    color: #fff;
+    border-radius: 10px;}
+.drop{
+    background-color: white;
+    color: black;
+    height: 30px; 
+    margin-top:2px;
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+}
+.them{
+    margin: 20px 10px 10px 30px;
+}
+.img-thumbnail{width: 100%}
